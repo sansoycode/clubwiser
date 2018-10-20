@@ -119,35 +119,35 @@ var reviewPanel='<h2 class="headline text-center">What Our Members Say:</h2>\
 <div id="google-reviews"></div>'
 
 reviewPanel+='\
-<div class="review-meta"><span class="review-author">Amanda Howard</span><span class="review-date">Jan 22, 2018</span></div>\
+<div class="review-meta"><span class="review-author">Amanda Howard</span></div>\
 <div class="review-stars"><ul><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li></ul></div>\
 <div style="width:100%;"><span class="review-text">\
 "I started at Anytime fitness in woolwich in September last year After a friend recommended the gym to me. Sally and her team are fantastic, they are all happy to help and push you to achieve your goals. They had me doing things I didn\'t think I could do. There are lots of classes to choose from and the app on your phone to book them is great. such a welcoming atmosphere and friendly gym I ve ever been too. Highly recommend it."\
 </span></div>'
 
 reviewPanel+='\
-<div class="review-meta"><span class="review-author">Egle Zalpyte</span><span class="review-date">Jan 21, 2018</span></div>\
+<div class="review-meta"><span class="review-author">Egle Zalpyte</span></div>\
 <div class="review-stars"><ul><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li></ul></div>\
 <div style="width:100%;"><span class="review-text">\
 "I am a member of this gym over a year! Perfect location, very clean and well organised gym! Found staff very friendly, especially Heather she is a superstar - very helpful! Really enjoy Lawrence body pump class! If you don\'t know about it guys - you should of try! Anytime Fitness Woolwich"\
 </span></div>'
 
 reviewPanel+='\
-<div class="review-meta"><span class="review-author">Michael Costello</span><span class="review-date">Jan 21, 2018</span></div>\
+<div class="review-meta"><span class="review-author">Michael Costello</span></div>\
 <div class="review-stars"><ul><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li></ul></div>\
 <div style="width:100%;"><span class="review-text">\
 "I\'ve been a member for 6 months and love Anytime Woolwich. The equipment is great, people are nice and my PT Scott is exceptional, motivating and very knowledgeable - 5 stars all round!"\
 </span></div>'
 
 reviewPanel+='\
-<div class="review-meta"><span class="review-author">Alison Walker</span><span class="review-date">Jun 17, 2017</span></div>\
+<div class="review-meta"><span class="review-author">Alison Walker</span></div>\
 <div class="review-stars"><ul><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li></ul></div>\
 <div style="width:100%;"><span class="review-text">\
 "This is a brilliant gym. Always clean, got great equipment and the staff are really helpful and friendly. I\'ve done a few of the classes too and they have been great. Would definitely recommend!"\
 </span></div>'
 
 reviewPanel+='\
-<div class="review-meta"><span class="review-author">Heather Quelch</span><span class="review-date">Jan 06, 2017</span></div>\
+<div class="review-meta"><span class="review-author">Heather Quelch</span></div>\
 <div class="review-stars"><ul><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li></ul></div>\
 <div style="width:100%;"><span class="review-text">\
 "Great gym, personal team with great service. I asked for some specific equipment and had it within the week! So glad I swapped fitness first for this."\
