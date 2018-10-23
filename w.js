@@ -28,7 +28,7 @@ Feel free to visit us any time and take a look at our facilities, offering:<br/>
 <h3>Where is Anytime Fitness Woolwich ?</h3>\
 We are located on the ground floor of Tesco Extra in Woolwich Town centre, opposite Gordon Square and moments from Woolwich Arsenal station. There is free parking for members (and visitors) inside the Tesco building - using our registration kiosk inside the club.<br/>\
 You can also jump onto one of the many buses heading toward Woolwich town centre.<br/>\
-<img style="width:300px;height:191px;margin: auto; display: block;margin-top: 20px;" src="https://www.sansoycode.com/location_map.png"/>\
+<img style="width:300px;height:191px;margin: auto; display: block;margin-top: 20px;" src="https://user-images.githubusercontent.com/36538998/47352216-5fd2b500-d6b1-11e8-81b7-2f28858fb78c.png"/>\
  <br/>\
 <h3>What are the opening hours?</h3>\
 We are open 24 hours a day, 7 days a week, 365 days per year! Please see our staffed times above for guest visits and tours.<br/>\
@@ -64,14 +64,14 @@ We do not offer temporary membership arrangements at our clubs. We have a commit
 <table style="border-collapse: collapse;margin-left:auto;margin-right:auto;">\
 <tr>\
 	<td style="padding:0; margin:0;" align="center">\
-		<img width="97" height="50"  src="https://www.sansoycode.com/google_stars.png"/>\
+		<img width="97" height="50"  src="https://user-images.githubusercontent.com/36538998/47352192-55182000-d6b1-11e8-8926-7168172e4d21.png"/>\
 		<span style="display: block; color:#ea7a02; font-size: 26px;margin-top: 0px;margin-bottom: 0px;" class="rating_score">4.6</span>\
 		<span style="display: block; color:black; font-size: 10px;margin-top: 0px;margin-bottom: 0px;" class="rating_count"><a href="https://www.google.co.uk/search?q=anytime+fitness+woolwich&oq=anytime+fitne&ie=UTF-8#lrd=0x47d8a8ebdc390d8f:0xa854c7ba75a1d1e9,1,,,">62 Reviews</a></span>\
 	</td>\
 	<td style="width:100px">\
 	</td>\
 	<td style="padding:0; margin:0;" border="0" align="center">\
-		<img width="97" height="50"  src="https://www.sansoycode.com/fb_stars.png"/>\
+		<img width="97" height="50"  src="https://user-images.githubusercontent.com/36538998/47352191-55182000-d6b1-11e8-992c-6edb8156df91.png"/>\
 		<span style="display: block; color:#ea7a02; font-size: 26px;margin-top: 0px;margin-bottom: 0px;" class="rating_score">4.9</span>\
 		<span style="display: block; color:black; font-size: 10px;margin-top: 0px;margin-bottom: 0px;" class="rating_count"><a href="https://www.facebook.com/pg/AnytimeFitnessWoolwich/reviews">57 Reviews</a></span>\
 	</td>\
@@ -111,7 +111,7 @@ for(var i = 0; i < divsToUpdate.length; i++){
 // add google review css to page
 var cssLink = document.createElement('link');
 cssLink.rel = 'stylesheet';
-cssLink.href = 'https://www.sansoycode.com/google-places.css';
+cssLink.href = 'https://sansoycode.github.io/google-places.css';
 document.head.append(cssLink);
 
 var googleDivToUpdate = document.getElementById("google-review-section");
