@@ -469,4 +469,25 @@ for(var i = 0; i < calendarDiv.length; i++){
 	calendarDiv[i].style.display = "none"; //
 }
 
+// append source to enquiry, trial and signup links
+// get href from url
+
+var urlParams = new URLSearchParams(location.search);
+if(urlParams.has('source')){
+	var source = urlParams.get('source');	
+	var trialLink = document.querySelector('a[href*="woolwich-free-trial"]');
+	if(trialLink){
+		trialLink.href += "&source=" + source;
+	}
+	var signupLink = document.querySelector('a[href*="woolwich-sign-up"]');
+	if(signupLink){
+		signupLink.href += "&source=" + source;
+	}
+	var enquiryLink = document.querySelector('a[href*="general-enquiry"]');
+	if(enquiryLink){
+		enquiryLink.href += "&source=" + source;
+	}
+}
+
+
 console.log(tbody);
