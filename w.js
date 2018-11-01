@@ -477,17 +477,19 @@ var source = new URL(document.referrer).hostname;
 if(urlParams.has('source')){
 	source = urlParams.get('source');	
 }
-var trialLink = document.querySelector('a[href*="woolwich-free-trial"]');
-if(trialLink){
-	trialLink.href += "&source=" + source;
-}
-var signupLink = document.querySelector('a[href*="woolwich-sign-up"]');
-if(signupLink){
-	signupLink.href += "&source=" + source;
-}
-var enquiryLink = document.querySelector('a[href*="general-enquiry"]');
-if(enquiryLink){
-	enquiryLink.href += "&source=" + source;
+if(source){
+	var trialLink = document.querySelector('a[href*="woolwich-free-trial"]');
+	if(trialLink){
+		trialLink.href += "&source=" + source;
+	}
+	var signupLink = document.querySelector('a[href*="woolwich-sign-up"]');
+	if(signupLink){
+		signupLink.href += "&source=" + source;
+	}
+	var enquiryLink = document.querySelector('a[href*="general-enquiry"]');
+	if(enquiryLink){
+		enquiryLink.href += "&source=" + source;
+	}
 }
 
 
