@@ -473,8 +473,9 @@ for(var i = 0; i < calendarDiv.length; i++){
 // get href from url
 
 var urlParams = new URLSearchParams(location.search);
-if(document.referrer}
-	var source = new URL(document.referrer).hostname;
+var source;
+if(document.referrer && 0 === document.referrer.length}
+	source = new URL(document.referrer).hostname;
 }
 if(urlParams.has('source')){
 	source = urlParams.get('source');	
