@@ -474,7 +474,7 @@ for(var i = 0; i < calendarDiv.length; i++){
 
 var urlParams = new URLSearchParams(location.search);
 var source;
-if(document.referrer && 0 !== document.referrer.length}
+if(document.referrer && 0 !== document.referrer.length){
 	source = new URL(document.referrer).hostname;
 }
 if(urlParams.has('source')){
