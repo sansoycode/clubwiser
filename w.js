@@ -1,11 +1,11 @@
 
 var htmlTxt='<h3>What is Anytime Fitness?</h3>\
-Anytime Fitness operates over 4,000 high quality, 24 hour health and fitness facilities in 28 countries around the world.<br/>\
+Anytime Fitness operates over 4,000 premiun, 24 hour health and fitness facilities in 28 countries around the world.<br/>\
 We provide high end equipment and a first class workout environment without all the frills of more expensive clubs. This means we can offer a great value membership.<br/>\
 We are committed to providing a non-intimidating workout environment with an expert team to help you achieve your goals.<br/>\
 Our clubs are arranged and located to enable a quick and efficient workout, with minimal wait times for equipment. Our quality facilities attract quality members, who often go on to participate in fitness events and social activities outside of the club as well as inside!<br/>\
  <br/>\
-<h3>What is the Woolwich club like?</h3>\
+<a id="aboutUs"><h3>What is the Woolwich club like?</h3></a>\
 Feel free to visit us any time and take a look at our facilities, offering:<br/><br/>\
 <ul>\
 <li>Resistance machines and internet and tv enabled cardio equipment from Life Fitness</li>\
@@ -93,7 +93,7 @@ Instagram: <a href="https://www.instagram.com/anytimewoolwich/">@anytimewoolwich
 <div id=google-review-section></div>\
 <hr>\
 <div id=timetable-section>\
-<h2 class="headline text-center">Class Timetable</h2>\
+<a id="timetable"><h2 class="headline text-center">Class Timetable</h2></a>\
 <p>All our classes are free to attend and can be booked online or through our free mobile app for Android and iPhone. Classes are led by qualified instructors who are committed to ensuring \
 you have a great workout and meet great friends along the way!</p>\
 	<div class="timetable-bg">\
@@ -115,7 +115,7 @@ cssLink.href = 'https://sansoycode.github.io/google-places.css';
 document.head.append(cssLink);
 
 var googleDivToUpdate = document.getElementById("google-review-section");
-var reviewPanel='<h2 class="headline text-center">What Our Members Say:</h2>\
+var reviewPanel='<a id="reviews"><h2 class="headline text-center">What Our Members Say:</h2></a>\
 <div id="google-reviews"></div>'
 
 reviewPanel+='\
