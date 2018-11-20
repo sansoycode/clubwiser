@@ -1,12 +1,12 @@
 
 var htmlTxt='<h3>What is Anytime Fitness?</h3>\
-Anytime Fitness operates over 4,000 premiun, 24 hour health and fitness facilities in 28 countries around the world.<br/>\
+Anytime Fitness operates over 4,000 premium, 24 hour health and fitness facilities in 30 countries around the world.<br/>\
 We provide high end equipment and a first class workout environment without all the frills of more expensive clubs. This means we can offer a great value membership.<br/>\
 We are committed to providing a non-intimidating workout environment with an expert team to help you achieve your goals.<br/>\
 Our clubs are arranged and located to enable a quick and efficient workout, with minimal wait times for equipment. Our quality facilities attract quality members, who often go on to participate in fitness events and social activities outside of the club as well as inside!<br/>\
  <br/>\
 <a id="aboutUs"><h3>What is the Woolwich club like?</h3></a>\
-Feel free to visit us any time and take a look at our facilities, offering:<br/><br/>\
+Feel free to visit us any time and take a look at our premium club, offering:<br/><br/>\
 <ul>\
 <li>Resistance machines and internet and tv enabled cardio equipment from Life Fitness</li>\
 <li>A 500 square foot spin and class studio</li>\
@@ -47,7 +47,7 @@ You can also call us on 02037455055 or drop by our gym (inside Tesco Extra Woolw
 Nothing! With one membership, you can train at any of the 4,000 clubs globally, with 150 already in the UK and many in London (your nearest are Greenwich, Bexleyheath and Hither Green - with others in Aldgate, St Pauls, Waterloo, Kings Cross, Stratford and many more )<br/>\
  <br/>\
 <h3>How much will it cost to take one or more classes?</h3>\
-Nothing! Unlike your existing local clubs, all classes are free in our club - both instructor led and virtual, regardless of how many you attend. You can attend a class at any of the other 3600+ clubs globally at any time too so if you\'re on a business trip or a holiday, there\'s no reason to miss a workout!<br/>\
+Nothing! Unlike your existing local clubs, all classes are free in our club - both instructor led and virtual, regardless of how many you attend. You can attend a class at any of the other 4000+ clubs globally at any time too so if you\'re on a business trip or a holiday, there\'s no reason to miss a workout!<br/>\
  <br/>\
 <h3>Why aren\'t we cheaper than some budget gym chains?</h3>\
 Anytime Fitness is not a budget operator - we invest a lot into ensuring we provide and maintain a great club at a competitive price. Unlike budget gyms, we limit the number of members who can join us. We do this to ensure our high end equipment is accessible to our members with minimal waiting times.<br/>\
