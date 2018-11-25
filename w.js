@@ -481,16 +481,19 @@ if(urlParams.has('source')){
 	source = urlParams.get('source');	
 }
 if(source){
-	var trialLink = document.querySelector('a[href*="woolwich-free-trial"]');
-	if(trialLink){
+	var trialLinks = document.querySelectorAll('a[href*="woolwich-free-trial"]');
+	for (var i = 0; i < trialLinks.length; i++) {
+		var trialLink = trialLinks[i];
 		trialLink.href += "&source=" + source;
 	}
-	var signupLink = document.querySelector('a[href*="woolwich-sign-up"]');
-	if(signupLink){
+	var signupLinks = document.querySelectorAll('a[href*="woolwich-sign-up"]');
+	for (var i = 0; i < signupLinks.length; i++) {
+		var signupLink = signupLinks[i];
 		signupLink.href += "&source=" + source;
 	}
-	var enquiryLink = document.querySelector('a[href*="general-enquiry"]');
-	if(enquiryLink){
+	var enquiryLinks = document.querySelectorAll('a[href*="general-enquiry"]');
+	for (var i = 0; i < enquiryLinks.length; i++) {
+		var enquiryLink = enquiryLinks[i];
 		enquiryLink.href += "&source=" + source;
 	}
 }
