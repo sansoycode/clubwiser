@@ -55,8 +55,8 @@ We are open 24 hours a day, 7 days a week, 365 days per year! Please see our sta
 <hr>\
 <div id=timetable-section>\
 <h2 id="timetable" class="headline text-center">Class Timetable</h2>\
-<p>All our classes are free to attend and can be booked online or through our free mobile app for Android and iPhone. Classes are led by qualified instructors who are committed to ensuring \
-you have a great workout and meet great friends along the way!</p>\
+All our classes are free to attend and can be booked online or through our free mobile app for Android and iPhone. Classes are led by qualified instructors who are committed to ensuring \
+you have a great workout and meet great friends along the way!\
 	<div class="timetable-bg">\
 	<table class="timetable-table" id="timetable-id"></table>\
 	</div>\
@@ -164,7 +164,7 @@ var timetable = {
                "cph":30
             },
             {  
-               "name":"Strongman / Woman Conditioning",
+               "name":"Strongman / WoMan",
                "location":"Functional Area",
                "instructor":"Katie",
                "virtual":false,
@@ -204,7 +204,7 @@ var timetable = {
                "cph":0
             },
             {  
-               "name":"Candlelit Slow Flow Yoga",
+               "name":"Candlelit Flow Yoga",
                "location":"Studio",
                "instructor":"Liloo",
                "virtual":false,
@@ -512,12 +512,12 @@ if(source){
 	var trialLinks = document.querySelectorAll('a[href*="guest_pass.asp"]');
 	for (var i = 0; i < trialLinks.length; i++) {
 		var trialLink = trialLinks[i];
-		trialLink.href += "&Member__Source=" + source;
+		trialLink.href += "?Member__Source=" + source;
 	}
 	var enquiryLinks = document.querySelectorAll('a[href*="enquiry.asp"]');
 	for (var i = 0; i < enquiryLinks.length; i++) {
 		var enquiryLink = enquiryLinks[i];
-		enquiryLink.href += "&Member__Source=" + source;
+		enquiryLink.href += "?Member__Source=" + source;
 	}
 }
 
