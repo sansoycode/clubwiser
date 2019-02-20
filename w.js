@@ -55,9 +55,9 @@ We are open 24 hours a day, 7 days a week, 365 days per year! Please see our sta
 <hr>\
 <div id=timetable-section>\
 <h2 id="timetable" class="headline text-center">Class Timetable</h2>\
- <br/>\
 All our classes are free to attend and can be booked online or through our free mobile app for Android and iPhone. Classes are led by qualified instructors who are committed to ensuring \
 you have a great workout and meet great friends along the way!\
+ <br/>\
 	<div class="timetable-bg">\
 	<table class="timetable-table" id="timetable-id"></table>\
 	</div>\
