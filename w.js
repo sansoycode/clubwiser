@@ -165,7 +165,7 @@ var timetable = {
                "cph":30
             },
             {  
-               "name":"Strongman / WoMan",
+               "name":"Strongman / Woman",
                "location":"Functional Area",
                "instructor":"Katie",
                "virtual":false,
