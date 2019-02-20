@@ -1,12 +1,6 @@
 
 var htmlTxt='<div id=google-review-section></div>\
-<hr>\
-<h3>What is Anytime Fitness?</h3>\
-Anytime Fitness operates over 4,000 premium, 24 hour health and fitness facilities in 30 countries around the world.<br/>\
-We provide high end equipment and a first class workout environment without all the frills of more expensive clubs. This means we can offer a great value membership.<br/>\
-We are committed to providing a non-intimidating workout environment with an expert team to help you achieve your goals.<br/>\
-Our clubs are arranged and located to enable a quick and efficient workout, with minimal wait times for equipment. Our quality facilities attract quality members, who often go on to participate in fitness events and social activities outside of the club as well as inside!<br/>\
- <br/>\
+ <br/>\
 <table style="border-collapse: collapse;margin-left:auto;margin-right:auto;">\
 <tr>\
 	<td style="padding:0; margin:0;" align="center">\
@@ -23,6 +17,12 @@ Our clubs are arranged and located to enable a quick and efficient workout, with
 	</td>\
 </tr>\
 </table>\
+<hr>\
+<h3>What is Anytime Fitness?</h3>\
+Anytime Fitness operates over 4,000 premium, 24 hour health and fitness facilities in 30 countries around the world.<br/>\
+We provide high end equipment and a first class workout environment without all the frills of more expensive clubs. This means we can offer a great value membership.<br/>\
+We are committed to providing a non-intimidating workout environment with an expert team to help you achieve your goals.<br/>\
+Our clubs are arranged and located to enable a quick and efficient workout, with minimal wait times for equipment. Our quality facilities attract quality members, who often go on to participate in fitness events and social activities outside of the club as well as inside!<br/>\
 <br/>\
 <h3 id="aboutUs">What is the Woolwich club like?</h3>\
 Feel free to visit us any time and take a look at our premium club, offering:<br/><br/>\
