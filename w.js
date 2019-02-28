@@ -495,13 +495,13 @@ var source;
 if(document.referrer && 0 !== document.referrer.length){
 	source = new URL(document.referrer).hostname;
 	if(source.indexOf("google")>0){
-		source = "GoogleSearch";	
+		source = "Google Search";	
 	}
 	if(source.indexOf("bing")>0){
-		source = "BingSearch";	
+		source = "Bing Search";	
 	}
 	if(source.indexOf("yahoo")>0){
-		source = "YahooSearch";	
+		source = "Yahoo Search";	
 	}
 	if(source.indexOf("facebook")>0){
 		source = "Facebook";	
