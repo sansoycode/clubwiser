@@ -121,7 +121,9 @@ reviewPanel +='<div style="margin: auto; text-align:center; width:100%; display:
 <a href="https://www.google.co.uk/search?q=anytime+fitness+woolwich&oq=anytime+fitne&ie=UTF-8#lrd=0x47d8a8ebdc390d8f:0xa854c7ba75a1d1e9,1,,," target="_blank">See All Our Google Reviews</a>\
 </div>'
 
-googleDivToUpdate.innerHTML = reviewPanel;
+var newReviewDiv = document.createElement("div");
+newReviewDiv.innerHTML = reviewPanel;
+googleDivToUpdate.appendChild(newReviewDiv);
 
 
 var timetable = {  
