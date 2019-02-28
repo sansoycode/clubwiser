@@ -463,7 +463,7 @@ for(var i = 0; i < timetable.days.length; i++) {
 
 for(var j = 0; j < maxClasses; j++) {
   tr = document.createElement('tr');
-  tbody.append(tr);
+  tbody.appendChild(tr);
   for(var k = 0; k < timetable.days.length; k++) {
     var day = timetable.days[k];
 	td = document.createElement('td');
