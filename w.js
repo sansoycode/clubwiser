@@ -454,7 +454,7 @@ for(var i = 0; i < timetable.days.length; i++) {
   var th = document.createElement("th");
   th.className='timetable-day'
   th.innerHTML=day.day;
-  thead.append(th);
+  thead.appendChild(th);
   var thisClasses = day.classes.length;
   if(thisClasses>maxClasses){
 	maxClasses=thisClasses;
@@ -475,13 +475,13 @@ for(var j = 0; j < maxClasses; j++) {
 	else{
 		td.innerHTML="";
 	}
-	tr.append(td);
+	tr.appendChild(td);
   }
 }
 
 var timetableDivToUpdate = document.getElementById("timetable-id");
-timetableDivToUpdate.append(thead);
-timetableDivToUpdate.append(tbody);
+timetableDivToUpdate.appendChild(thead);
+timetableDivToUpdate.appendChild(tbody);
 
 var calendarDiv = document.getElementsByClassName("club-cal");
 for(var i = 0; i < calendarDiv.length; i++){
