@@ -74,7 +74,7 @@ for(var i = 0; i < divsToUpdate.length; i++){
 // add google review css to page
 var cssLink = document.createElement('link');
 cssLink.rel = 'stylesheet';
-cssLink.href = 'https://sansoycode.github.io/google-places.css';
+cssLink.href = 'https://cdn.jsdelivr.net/gh/sansoycode/clubwiser@4.6/google-places.css';
 document.head.append(cssLink);
 
 var googleDivToUpdate = document.getElementById("google-review-section");
