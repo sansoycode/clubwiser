@@ -75,7 +75,7 @@ for(var i = 0; i < divsToUpdate.length; i++){
 var cssLink = document.createElement('link');
 cssLink.rel = 'stylesheet';
 cssLink.href = 'https://cdn.jsdelivr.net/gh/sansoycode/clubwiser@4.6/google-places.css';
-document.head.append(cssLink);
+document.getElementsByTagName('head')[0].append(cssLink);
 
 var googleDivToUpdate = document.getElementById("google-review-section");
 var reviewPanel='<h2 id="reviews" class="headline text-center">What Our Members Say:</h2>\
