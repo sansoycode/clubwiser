@@ -23,7 +23,7 @@ if(document.referrer && 0 !== document.referrer.length){
 if(urlParams.has('Source')){
 	source = urlParams.get('Source');
 }
-var landingPageUrl = "http://anytimefitnesswoolwich.lpages.co/angel-general-enquiry/";
+var landingPageUrl = "https://anytimefitnesswoolwich.lpages.co/angel-general-enquiry/";
 if(source){
     landingPageUrl = landingPageUrl + "?Source=" + source
 }
