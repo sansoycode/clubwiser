@@ -32,7 +32,7 @@ if(urlParams.has('Source')){
 		}
 		if(display.indexOf("R")>=0){
 			// random display
-			landingPageUrl = myArray[Math.floor(Math.random()*landingPages.length)];
+			landingPageUrl = landingPages[Math.floor(Math.random()*landingPages.length)];
 		}
 	}
 	
