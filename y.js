@@ -7,7 +7,8 @@ if(urlParams.has('Source')){
 	var landingPages = [
 	  "https://anytimefitnesswoolwich.lpages.co/angel-general-enquiry/", // standard
 	  "https://anytimefitnesswoolwich.lpages.co/anytime-fitness-angel-promotion-price/", // displays price 
-	  "https://anytimefitnesswoolwich.lpages.co/anytime-fitness-angel-promotion-discount/" // displays discount percent
+	  "https://anytimefitnesswoolwich.lpages.co/anytime-fitness-angel-promotion-discount/", // displays discount percent
+	  "https://afangelv2.social-fitness.co/coming-soon-ga" // social fitness landing page
 	];
 	
 	var iframeHtml="<iframe id=\"the-iframe\" frameborder=\"0\" style=\"position: fixed;top: 0;left: 0;right: 0;bottom: 0;width: 100%;height: 100%;\"></iframe>"	
@@ -33,6 +34,10 @@ if(urlParams.has('Source')){
 		if(display.indexOf("R")>=0){
 			// random display
 			landingPageUrl = landingPages[Math.floor(Math.random()*landingPages.length)];
+		}
+		if(display.indexOf("L")>=0){
+			// social fitness landing page
+			landingPageUrl = landingPages[3] + location.search;
 		}
 	}
 	
