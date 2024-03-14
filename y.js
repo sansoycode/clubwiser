@@ -2,7 +2,7 @@ var urlParams = new URLSearchParams(location.search);
 var source;
 var display;
 
-if(urlParams.has('Source')){
+if(urlParams.has('Source') || urlParams.has('Forward')){
 	
 	var landingPages = [
 	  "https://anytimefitnesswoolwich.lpages.co/angel-general-enquiry/", // standard
