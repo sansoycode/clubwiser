@@ -2,6 +2,19 @@ var urlParams = new URLSearchParams(location.search);
 var source;
 var display;
 
+if(urlParams.has('Fwd')){
+	var label = urlParams.get('label');
+	var id = urlParams.get('id');
+	var url = urlParams.get('url');
+	//var tracker = "https://sansoy.co.uk/link.php?id="+id+"&label="+label+"&url="+url;
+	const zapier = "https://hooks.zapier.com/hooks/catch/2629410/3xvcjpq/silent/?id=" + id + "&label=" + label + "&url=" + url;
+	// log the redirect
+	fetch(zapier).then(data => {
+		console.log("Sent to zapier" + data);
+   	 })
+	window.location.href = url;
+}
+
 if(urlParams.has('Source') || urlParams.has('Land')){
 	
 	var landingPages = [
