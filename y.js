@@ -6,7 +6,7 @@ if(urlParams.has('Join')){
 	window.stop();
 	var label = urlParams.get('label');
 	var id = urlParams.get('id');
-	var joinUrl = "https://joinanytimefitness3.clubwise.com/angel/pos.asp";
+	var joinUrl = "https://joinanytimefitnesspresale1.clubwise.com/angel/pos.asp";
 	var seed = id + ",9789";
 	var token = btoa(seed);
 	var customUrl = joinUrl + "?d=" + token;
