@@ -1,5 +1,22 @@
 var urlParams = new URLSearchParams(location.search);
 var source;
+var display;
+
+if(urlParams.has('Join')){
+	window.stop();
+	var label = urlParams.get('label');
+	var id = urlParams.get('id');
+	var joinUrl = "https://joinanytimefitnesspresale1.clubwise.com/angel/pos.asp";
+	var seed = id + ",9789";
+	var token = btoa(seed);
+	var customUrl = joinUrl + "?d=" + token;
+	const zapier = "https://hooks.zapier.com/hooks/catch/2629410/3xvcjpq/silent/?id=" + id + "&label=" + label + "&url=" + customUrl;
+	// log the redirect
+	fetch(zapier).then(data => {
+		console.log("Sent to zapier" + data);
+   	 })
+	window.location.href = customUrl;
+}
 
 window.onload = function() {
 	var imgElement = document.querySelector('img[title="Anytime-Fitness-Gym-1200×800"]');
