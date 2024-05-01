@@ -70,6 +70,8 @@ window.addEventListener('load', function() {
 			We are so confident you will love our beautiful gym, we even offer a 14 day cooling off period. There is no reason not to lock in your promo rate now and give us a try.
 			<br><br>
 			You can find us located just around the corner of Angel Tube Station on City Road, London, EC1V 1LR
+			<br><br>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1475.7914288374914!2d-0.1051937412932726!3d51.532010220378226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sanytime%20fitness%20angel!5e0!3m2!1sen!2suk!4v1714348973258!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			<br><br>`;
 	
 	var descriptionElement1 = document.querySelector('div[data-id="79dde3fb"]');
