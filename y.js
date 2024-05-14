@@ -61,13 +61,11 @@ window.addEventListener('load', function() {
 	var newDescription = `
 		Our Premium 24 Hour gym is opening in London - Angel, Islington on Monday 13th May 2024! 
 			<br><br>
-			The next 100 joiners get the fantastic price of just <span class="h5">£34.95 per month</span>. <h5><a href="https://joinanytimefitnesspresale1.clubwise.com/angel/pos.asp">Click here to join</a></h5> and take advantage of this offer before it's too late!
+			The next 100 joiners get the fantastic price of just <span class="h5">£35.95 per month</span>. <h5><a href="https://joinanytimefitnesspresale1.clubwise.com/angel/pos.asp">Click here to join</a></h5> and take advantage of this offer before it's too late!
 			<br><br>
 			Not ready to sign up right now? No problem:  <h5><a href="` + tourLink + `">Click here to book a personal tour of the beautiful club</a>!</h5> We can't wait to show you around.
 			<br><br>
 			We have brand new high end equipment, including 8 squat racks, 4 studios, functional training space and lots more. Our 50+ classes are included in your membership as is 24/7 access to all 5000 gyms around the world.
-			<br><br>
-			We are so confident you will love our beautiful gym, we even offer a 14 day cooling off period. There is no reason not to lock in your promo rate now and give us a try.
 			<br><br>
 			You can find us located just around the corner of Angel Tube Station on City Road, London, EC1V 1LR
 			<br><br>
