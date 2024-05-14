@@ -49,7 +49,7 @@ window.addEventListener('load', function() {
 		var parentDiv = imgElement.parentNode;
 	
 		// Replace the content of the parent element
-		parentDiv.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/BniPPBkoTjw?si=WqHJyUj7kgOZOsww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+		parentDiv.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/rzscDiRbp1Y?si=2E8-3MDPOyKU4KzO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
 	}
 	else{
 		console.log("No IMG element found with title 'Anytime-Fitness-Gym-1200×800'");
