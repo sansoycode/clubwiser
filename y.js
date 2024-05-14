@@ -59,11 +59,11 @@ window.addEventListener('load', function() {
 	var tourLink = "https://calendly.com/atf-angel/club-tour" + tourParams;
 	
 	var newDescription = `
-		Our Premium 24 Hour gym is opening in London - Angel, Islington on Monday 13th May 2024! 
+		Our Premium 24 Hour gym is <b>NOW OPEN</b> in London - Angel, Islington! 
 			<br><br>
 			The next 100 joiners get the fantastic price of just <span class="h5">£35.95 per month</span>. <h5><a href="https://joinanytimefitnesspresale1.clubwise.com/angel/pos.asp">Click here to join</a></h5> and take advantage of this offer before it's too late!
 			<br><br>
-			Not ready to sign up right now? No problem:  <h5><a href="` + tourLink + `">Click here to book a personal tour of the beautiful club</a>!</h5> We can't wait to show you around.
+			Pop in any time, and see why we are already Angel Islington's best rated gym on Google.
 			<br><br>
 			We have brand new high end equipment, including 8 squat racks, 4 studios, functional training space and lots more. Our 50+ classes are included in your membership as is 24/7 access to all 5000 gyms around the world.
 			<br><br>
