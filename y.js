@@ -61,7 +61,7 @@ window.addEventListener('load', function() {
 	var newDescription = `
 		Our Premium 24 Hour gym is <b>NOW OPEN</b> in London - Angel, Islington! 
 			<br><br>
-			The next 100 joiners get the fantastic price of just <span class="h5">£35.95 per month</span>. <h5><a href="https://joinanytimefitnesspresale1.clubwise.com/angel/pos.asp">Click here to join</a></h5> and take advantage of this offer before it's too late!
+			The next 100 joiners get the fantastic price of just <span class="h5">£35.95 per month</span>. <h5><a href="https://joinanytimefitness3.clubwise.com/angel/pos.asp">Click here to join</a></h5> and take advantage of this offer before it's too late!
 			<br><br>
 			Pop in any time, and see why we are already Angel Islington's best rated gym on Google.
 			<br><br>
