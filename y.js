@@ -41,10 +41,10 @@ if(urlParams.has('Join')){
 
 window.addEventListener('load', function() {
 
-	var imgElement = document.querySelector('img[title="Anytime-Fitness-Gym-1200×800"]');
+	var imgElement = document.querySelector('img[alt="Two people lifting weights"]');
 	// Check if the element was found
 	if (imgElement) {
-		console.log("IMG element found with title 'Anytime-Fitness-Gym-1200×800'");
+		console.log("IMG element found with alt 'Two people lifting weights'");
 		// Get the parent element
 		var parentDiv = imgElement.parentNode;
 	
@@ -52,7 +52,7 @@ window.addEventListener('load', function() {
 		parentDiv.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/rzscDiRbp1Y?si=2E8-3MDPOyKU4KzO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
 	}
 	else{
-		console.log("No IMG element found with title 'Anytime-Fitness-Gym-1200×800'");
+		console.log("No IMG element found with alt 'Two people lifting weights'");
 	}
 	
 	var tourParams = "?utm_source="+source;
