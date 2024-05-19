@@ -39,6 +39,16 @@ if(urlParams.has('Join')){
 	window.location.href = customUrl;
 }
 
+// listen to submit click
+var freeTrialSubmitElements = document.querySelectorAll('button[type="submit"]');
+freeTrialSubmitElements.forEach((userItem) => {
+  userItem.addEventListener("click", function(){ 
+		fetch(zapier).then(data => {
+			console.log("Sent to zapier" + data);
+		});
+	});
+});
+
 window.addEventListener('load', function() {
 
 	var imgElement = document.querySelector('img[alt="Two people lifting weights"]');
