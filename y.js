@@ -59,7 +59,7 @@ window.addEventListener('load', function() {
 		var parentDiv = imgElement.parentNode;
 	
 		// Replace the content of the parent element
-		parentDiv.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/5lZt9N4Tc68?si=lk6qpyXtU938gffO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+		parentDiv.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/4Vt5DMiL_sk?si=SdmIN34hCIAniSVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
 	}
 	else{
 		console.log("No IMG element found with alt 'Two people lifting weights'");
@@ -71,7 +71,7 @@ window.addEventListener('load', function() {
 	var newDescription = `
 		Our Premium 24 Hour gym is <b>NOW OPEN</b> in London - Angel, Islington! 
 			<br><br>
-			The next 100 joiners get the fantastic price of just <span class="h5">£35.95 per month</span>. <h5><a href="https://joinanytimefitness3.clubwise.com/angel/pos.asp">Click here to join</a></h5> and take advantage of this offer before it's too late!
+			The next 100 joiners get the fantastic price of just <span class="h5">£36.95 per month</span>. <h5><a href="https://joinanytimefitness3.clubwise.com/angel/pos.asp">Click here to join</a></h5> and take advantage of this offer before it's too late!
 			<br><br>
 			Pop in any time, and see why we are already Angel Islington's best rated gym on Google.
 			<br><br>
