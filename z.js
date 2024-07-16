@@ -30,7 +30,7 @@ var sectionElement = document.querySelector('section[data-id="7e41a3b3"]');
 var formUrl = "https://www.atfpromo.co.uk/websiteform/?Source=" + source;
 if (sectionElement) {
 	console.log("Section element found with data-id '7e41a3b3'");
-	sectionElement.innerHTML = '<iframe id="myIframe" src="'+formUrl+'" scrolling="no" onload="resizeIframe()"></iframe>';
+	sectionElement.innerHTML = '<a href="" id="freetrial"></a><iframe id="myIframe" src="'+formUrl+'" scrolling="no" onload="resizeIframe()"></iframe>';
 }
 else{
 	console.log("No Section element found with data-id '7e41a3b3'");
