@@ -30,6 +30,9 @@ var sectionElement = document.querySelector('section[data-id="7e41a3b3"]');
 var formUrl = "https://www.atfpromo.co.uk/websiteform/?Source=" + source;
 if (sectionElement) {
 	console.log("Section element found with data-id '7e41a3b3'");
+	// remove the old freetrial tag
+	var freetrialElement = document.getElementById("freetrial");
+	freetrialElement.id = "oldFreetrial";
 	sectionElement.innerHTML = '<a href="" id="freetrial"></a><iframe id="myIframe" src="'+formUrl+'" scrolling="no" onload="resizeIframe()"></iframe>';
 }
 else{
