@@ -8,11 +8,19 @@ if(urlParams.has('Source')){
 	var formUrl = "https://www.atfpromo.co.uk/websiteform/?Source=" + source;
 	if (sectionElement) {
 		console.log("Section element found with data-id '7e41a3b3'");
-		// remove the old freetrial tag
-		var freetrialElement = document.getElementById("freetrial");
-		freetrialElement.parentNode.removeChild(freetrialElement);
-		// freetrialElement.id = "oldFreetrial";
-		sectionElement.innerHTML = '<a href="" id="freetrial"></a><iframe id="myIframe" src="'+formUrl+'" scrolling="no" onload="resizeIframe()"></iframe>';
+
+		var higherSectionElement = document.querySelector('section[data-id="648e5ecd"]');
+		if (higherSectionElement) {
+			var existingFreetrialElement = document.getElementById("freetrial");
+			existingFreetrialElement.id = "oldFreetrial";
+			
+			var newAnchor = document.createElement("a");
+			newAnchor.setAttribute("id", "freetrial");
+			var sectionParent = higherSectionElement.parentNode;
+			sectionParent.insertBefore(newAnchor, higherSectionElement);
+		}
+		
+		sectionElement.innerHTML = '<iframe id="myIframe" src="'+formUrl+'" scrolling="no" onload="resizeIframe()"></iframe>';
 	}
 	else{
 		console.log("No Section element found with data-id '7e41a3b3'");
