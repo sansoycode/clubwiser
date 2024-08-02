@@ -1,8 +1,41 @@
 var urlParams = new URLSearchParams(location.search);
 var source = "Web";
+var isSearch = false;
+var hasSource = false;
+
+if(document.referrer && 0 !== document.referrer.length){
+	source = new URL(document.referrer).hostname.toLowerCase();
+	if(source.indexOf("google")>=0){
+		source = "Google Search";
+		isSearch = true;
+	}
+	if(source.indexOf("bing")>=0){
+		source = "Bing Search";	
+		isSearch = true;
+	}
+	if(source.indexOf("yahoo")>=0){
+		source = "Yahoo Search";	
+		isSearch = true;
+	}
+/**
+	if(source.indexOf("facebook")>=0){
+		source = "Facebook";	
+	}
+	if(source.indexOf("instagram")>0){
+		source = "Instagram";	
+	}
+  	if(source.indexOf("anytimefitness.co")>=0){
+		source = "AnytimeFitnessHomepage";	
+	}
+ **/
+}
 
 if(urlParams.has('Source')){
 	source = urlParams.get('Source');
+	hasSource = true;
+}
+
+if(hasSource || isSearch){
 	
 	var sectionElement = document.querySelector('section[data-id="7e41a3b3"]');
 	var formUrl = "https://www.atfpromo.co.uk/websiteform/?Source=" + source;
@@ -48,28 +81,6 @@ if(urlParams.has('Source')){
 		}
 	}, false);
 	
-}
-/**	
-else if(document.referrer && 0 !== document.referrer.length){
-	source = new URL(document.referrer).hostname.toLowerCase();
-	if(source.indexOf("google")>0){
-		source = "Google Search";	
-	}
-	if(source.indexOf("bing")>0){
-		source = "Bing Search";	
-	}
-	if(source.indexOf("yahoo")>0){
-		source = "Yahoo Search";	
-	}
-	if(source.indexOf("facebook")>0){
-		source = "Facebook";	
-	}
-	if(source.indexOf("instagram")>0){
-		source = "Instagram";	
-	}
-  	if(source.indexOf("anytimefitness.co")>0){
-		source = "AnytimeFitnessHomepage";	
-	}
-}
-**/
+}	
+
 
